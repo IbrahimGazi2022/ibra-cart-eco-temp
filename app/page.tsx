@@ -1,8 +1,10 @@
+import MainLayout from "./layout/mainLayout";
+import Topbar from "@/components/Topbar/Topbar";
 
 export default function Home() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  );
+    <MainLayout>
+      <Topbar />
+    </MainLayout>
+  )
 }
