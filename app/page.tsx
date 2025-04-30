@@ -1,5 +1,5 @@
 import MainLayout from "./layout/mainLayout";
-import Topbar from "@/components/Topbar/Topbar";
+import { Topbar } from "@/components";
 
 export default function Home() {
   return (
