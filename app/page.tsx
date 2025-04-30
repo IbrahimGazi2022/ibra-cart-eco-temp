@@ -1,4 +1,4 @@
-import MainLayout from "./layout/mainLayout";
+import MainLayout from "../layout/mainLayout";
 import { Topbar } from "@/components";
 
 export default function Home() {

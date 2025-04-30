@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Search } from "lucide-react";
+import { Search, ShoppingBasket, CircleUserRound, BellDotIcon } from "lucide-react";
 
 const Topbar = () => {
     return (
@@ -19,11 +19,35 @@ const Topbar = () => {
                 <Search className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-600 w-5 h-5" />
             </div>
 
-            {/* Icons or Extra Options */}
-            <div className="flex gap-4 ml-4">
-                <button>Cart 🛒</button>
-                <button>Login 🔐</button>
+            {/* Languange */}
+            <div className="ml-8">
+                <select className="border-none border-gray-300 rounded px-3 py-2">
+                    <option value="en">Language</option>
+                    <option value="en">English</option>
+                    <option value="en">English</option>
+                </select>
             </div>
+
+            {/* Dollar */}
+            <div className="ml-2">
+                <select className="border-none border-gray-300 rounded px-3 py-2">
+                    <option value="en">Dollar</option>
+                    <option value="en">English</option>
+                    <option value="en">English</option>
+                    <option value="en">English</option>
+                </select>
+            </div>
+
+
+            {/* Icons or Extra Options */}
+            <div className="flex gap-2 ml-4 items-center">
+                <BellDotIcon className="p-2 border rounded-full w-10 h-10 text-gray-500" />
+                <span className="w-px h-8 bg-gray-300"></span>
+                <ShoppingBasket className="p-2 border rounded-full w-10 h-10 text-gray-500" />
+                <span className="w-px h-8 bg-gray-300"></span>
+                <CircleUserRound className="p-2 border rounded-full w-10 h-10 text-gray-500" />
+            </div>
+
         </div>
     );
 };
