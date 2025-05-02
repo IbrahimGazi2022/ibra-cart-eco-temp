@@ -7,8 +7,8 @@ const Navbar = () => {
             {/* Category List */}
             <div className='flex'>
                 <Grid2x2 />
-                <h2 className='ml-4 mr-4'>All Categories</h2>
-                <span className="w-[1.5px] h-8 bg-gray-300"></span>
+                <h2 className='ml-4 mr-4 font-boldß'>All Categories</h2>
+                <span className="w-[1.5px] h-8 bg-gray-300 font-bold"></span>
             </div>
 
             {/* Languange */}
